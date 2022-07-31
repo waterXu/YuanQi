@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7145A12289626B8009C4B00 /* BackgoundRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7145A11289626B8009C4B00 /* BackgoundRunner.swift */; };
+		E7145A152896D04D009C4B00 /* long.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7145A142896D04D009C4B00 /* long.mp3 */; };
+		E7145A172896D4BE009C4B00 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7145A162896D4BE009C4B00 /* SettingViewController.swift */; };
+		E731595D287A9EF0007F9395 /* MorningCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731595C287A9EF0007F9395 /* MorningCallViewController.swift */; };
+		E731595F287A9F85007F9395 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731595E287A9F85007F9395 /* PhotoViewController.swift */; };
+		E7315961287AA084007F9395 /* RootTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7315960287AA084007F9395 /* RootTabbarViewController.swift */; };
+		E7315964287AA0E1007F9395 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7315963287AA0E1007F9395 /* BaseViewController.swift */; };
+		E7315967287B1BFE007F9395 /* MusicPlayCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7315966287B1BFE007F9395 /* MusicPlayCenter.swift */; };
+		E7B6532D28703D8F00173FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6532C28703D8F00173FD7 /* AppDelegate.swift */; };
+		E7B6532F28703D8F00173FD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6532E28703D8F00173FD7 /* SceneDelegate.swift */; };
+		E7B6533128703D8F00173FD7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6533028703D8F00173FD7 /* MainViewController.swift */; };
+		E7B6533428703D8F00173FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B6533228703D8F00173FD7 /* Main.storyboard */; };
+		E7B6533628703D9100173FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B6533528703D9100173FD7 /* Assets.xcassets */; };
+		E7B6533928703D9100173FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B6533728703D9100173FD7 /* LaunchScreen.storyboard */; };
+		E7B6534728703DAF00173FD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B6534628703DAF00173FD7 /* WidgetKit.framework */; };
+		E7B6534928703DAF00173FD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B6534828703DAF00173FD7 /* SwiftUI.framework */; };
+		E7B6534C28703DAF00173FD7 /* YuanQiWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6534B28703DAF00173FD7 /* YuanQiWidget.swift */; };
+		E7B6534F28703DB100173FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B6534E28703DB100173FD7 /* Assets.xcassets */; };
+		E7B6535128703DB100173FD7 /* YuanQiWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E7B6534D28703DAF00173FD7 /* YuanQiWidget.intentdefinition */; };
+		E7B6535228703DB100173FD7 /* YuanQiWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E7B6534D28703DAF00173FD7 /* YuanQiWidget.intentdefinition */; };
+		E7B6535528703DB100173FD7 /* YuanQiWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E7B6534428703DAF00173FD7 /* YuanQiWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B6535328703DB100173FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B6532128703D8F00173FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B6534328703DAF00173FD7;
+			remoteInfo = YuanQiWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7B6535928703DB100173FD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7B6535528703DB100173FD7 /* YuanQiWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7145A11289626B8009C4B00 /* BackgoundRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgoundRunner.swift; sourceTree = "<group>"; };
+		E7145A142896D04D009C4B00 /* long.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = long.mp3; sourceTree = "<group>"; };
+		E7145A162896D4BE009C4B00 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E731595C287A9EF0007F9395 /* MorningCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningCallViewController.swift; sourceTree = "<group>"; };
+		E731595E287A9F85007F9395 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		E7315960287AA084007F9395 /* RootTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabbarViewController.swift; sourceTree = "<group>"; };
+		E7315963287AA0E1007F9395 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E7315966287B1BFE007F9395 /* MusicPlayCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayCenter.swift; sourceTree = "<group>"; };
+		E7B6532928703D8F00173FD7 /* YuanQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuanQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B6532C28703D8F00173FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7B6532E28703D8F00173FD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7B6533028703D8F00173FD7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E7B6533328703D8F00173FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B6533528703D9100173FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B6533828703D9100173FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7B6533A28703D9100173FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B6534428703DAF00173FD7 /* YuanQiWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YuanQiWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B6534628703DAF00173FD7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E7B6534828703DAF00173FD7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E7B6534B28703DAF00173FD7 /* YuanQiWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuanQiWidget.swift; sourceTree = "<group>"; };
+		E7B6534D28703DAF00173FD7 /* YuanQiWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = YuanQiWidget.intentdefinition; sourceTree = "<group>"; };
+		E7B6534E28703DB100173FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B6535028703DB100173FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B6532628703D8F00173FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B6534128703DAF00173FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6534928703DAF00173FD7 /* SwiftUI.framework in Frameworks */,
+				E7B6534728703DAF00173FD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7145A132896D026009C4B00 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				E7145A142896D04D009C4B00 /* long.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		E7315962287AA0A0007F9395 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7315963287AA0E1007F9395 /* BaseViewController.swift */,
+				E7315960287AA084007F9395 /* RootTabbarViewController.swift */,
+				E7B6533028703D8F00173FD7 /* MainViewController.swift */,
+				E731595C287A9EF0007F9395 /* MorningCallViewController.swift */,
+				E731595E287A9F85007F9395 /* PhotoViewController.swift */,
+				E7145A162896D4BE009C4B00 /* SettingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E7315965287B1BBD007F9395 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7315966287B1BFE007F9395 /* MusicPlayCenter.swift */,
+				E7145A11289626B8009C4B00 /* BackgoundRunner.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7B6532028703D8F00173FD7 = {
+			isa = PBXGroup;
+			children = (
+				E7B6532B28703D8F00173FD7 /* YuanQi */,
+				E7B6534A28703DAF00173FD7 /* YuanQiWidget */,
+				E7B6534528703DAF00173FD7 /* Frameworks */,
+				E7B6532A28703D8F00173FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B6532A28703D8F00173FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6532928703D8F00173FD7 /* YuanQi.app */,
+				E7B6534428703DAF00173FD7 /* YuanQiWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B6532B28703D8F00173FD7 /* YuanQi */ = {
+			isa = PBXGroup;
+			children = (
+				E7145A132896D026009C4B00 /* music */,
+				E7B6532C28703D8F00173FD7 /* AppDelegate.swift */,
+				E7B6532E28703D8F00173FD7 /* SceneDelegate.swift */,
+				E7315962287AA0A0007F9395 /* Controllers */,
+				E7315965287B1BBD007F9395 /* Utils */,
+				E7B6533228703D8F00173FD7 /* Main.storyboard */,
+				E7B6533528703D9100173FD7 /* Assets.xcassets */,
+				E7B6533728703D9100173FD7 /* LaunchScreen.storyboard */,
+				E7B6533A28703D9100173FD7 /* Info.plist */,
+			);
+			path = YuanQi;
+			sourceTree = "<group>";
+		};
+		E7B6534528703DAF00173FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6534628703DAF00173FD7 /* WidgetKit.framework */,
+				E7B6534828703DAF00173FD7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B6534A28703DAF00173FD7 /* YuanQiWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6534B28703DAF00173FD7 /* YuanQiWidget.swift */,
+				E7B6534D28703DAF00173FD7 /* YuanQiWidget.intentdefinition */,
+				E7B6534E28703DB100173FD7 /* Assets.xcassets */,
+				E7B6535028703DB100173FD7 /* Info.plist */,
+			);
+			path = YuanQiWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B6532828703D8F00173FD7 /* YuanQi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B6533D28703D9100173FD7 /* Build configuration list for PBXNativeTarget "YuanQi" */;
+			buildPhases = (
+				E7B6532528703D8F00173FD7 /* Sources */,
+				E7B6532628703D8F00173FD7 /* Frameworks */,
+				E7B6532728703D8F00173FD7 /* Resources */,
+				E7B6535928703DB100173FD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B6535428703DB100173FD7 /* PBXTargetDependency */,
+			);
+			name = YuanQi;
+			productName = YuanQi;
+			productReference = E7B6532928703D8F00173FD7 /* YuanQi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B6534328703DAF00173FD7 /* YuanQiWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B6535628703DB100173FD7 /* Build configuration list for PBXNativeTarget "YuanQiWidgetExtension" */;
+			buildPhases = (
+				E7B6534028703DAF00173FD7 /* Sources */,
+				E7B6534128703DAF00173FD7 /* Frameworks */,
+				E7B6534228703DAF00173FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuanQiWidgetExtension;
+			productName = YuanQiWidgetExtension;
+			productReference = E7B6534428703DAF00173FD7 /* YuanQiWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B6532128703D8F00173FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E7B6532828703D8F00173FD7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E7B6534328703DAF00173FD7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E7B6532428703D8F00173FD7 /* Build configuration list for PBXProject "YuanQi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B6532028703D8F00173FD7;
+			productRefGroup = E7B6532A28703D8F00173FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B6532828703D8F00173FD7 /* YuanQi */,
+				E7B6534328703DAF00173FD7 /* YuanQiWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B6532728703D8F00173FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6533928703D9100173FD7 /* LaunchScreen.storyboard in Resources */,
+				E7B6533628703D9100173FD7 /* Assets.xcassets in Resources */,
+				E7145A152896D04D009C4B00 /* long.mp3 in Resources */,
+				E7B6533428703D8F00173FD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B6534228703DAF00173FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6534F28703DB100173FD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B6532528703D8F00173FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6533128703D8F00173FD7 /* MainViewController.swift in Sources */,
+				E7145A172896D4BE009C4B00 /* SettingViewController.swift in Sources */,
+				E7B6535228703DB100173FD7 /* YuanQiWidget.intentdefinition in Sources */,
+				E7315967287B1BFE007F9395 /* MusicPlayCenter.swift in Sources */,
+				E7B6532D28703D8F00173FD7 /* AppDelegate.swift in Sources */,
+				E7B6532F28703D8F00173FD7 /* SceneDelegate.swift in Sources */,
+				E7315961287AA084007F9395 /* RootTabbarViewController.swift in Sources */,
+				E7315964287AA0E1007F9395 /* BaseViewController.swift in Sources */,
+				E731595D287A9EF0007F9395 /* MorningCallViewController.swift in Sources */,
+				E7145A12289626B8009C4B00 /* BackgoundRunner.swift in Sources */,
+				E731595F287A9F85007F9395 /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B6534028703DAF00173FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6534C28703DAF00173FD7 /* YuanQiWidget.swift in Sources */,
+				E7B6535128703DB100173FD7 /* YuanQiWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7B6535428703DB100173FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B6534328703DAF00173FD7 /* YuanQiWidgetExtension */;
+			targetProxy = E7B6535328703DB100173FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B6533228703D8F00173FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B6533328703D8F00173FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B6533728703D9100173FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B6533828703D9100173FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B6533B28703D9100173FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7B6533C28703D9100173FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B6533E28703D9100173FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULLD96QN83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuanQi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "元气小组件";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.YuanQi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B6533F28703D9100173FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULLD96QN83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuanQi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "元气小组件";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.YuanQi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7B6535728703DB100173FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULLD96QN83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuanQiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YuanQiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.YuanQi.YuanQiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B6535828703DB100173FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULLD96QN83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuanQiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YuanQiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.YuanQi.YuanQiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B6532428703D8F00173FD7 /* Build configuration list for PBXProject "YuanQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B6533B28703D9100173FD7 /* Debug */,
+				E7B6533C28703D9100173FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B6533D28703D9100173FD7 /* Build configuration list for PBXNativeTarget "YuanQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B6533E28703D9100173FD7 /* Debug */,
+				E7B6533F28703D9100173FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B6535628703DB100173FD7 /* Build configuration list for PBXNativeTarget "YuanQiWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B6535728703DB100173FD7 /* Debug */,
+				E7B6535828703DB100173FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B6532128703D8F00173FD7 /* Project object */;
+}
